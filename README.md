@@ -4,9 +4,14 @@
 
 ## Building the ISOALERT
 
-The firt thing you need is to download and install the Intel® oneAPI Base Toolki.
+Download Intel® oneAPI Base Toolkit
+
+The firt thing you need is to download and install the Intel® oneAPI Base Toolkit.
 
 You can register, download and information about install it from the following link (Linux version): https://software.intel.com/content/www/us/en/develop/tools/oneapi/download.html#basekit 
+
+
+
 
 ``` bash
 /usr/bin/c++ -I/opt/intel/inteloneapi/vpl/latest/include  -o isolalert.cpp.o  -c isolalert.cpp
