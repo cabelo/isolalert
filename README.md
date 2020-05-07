@@ -41,3 +41,9 @@ $ /usr/bin/c++ -I/opt/intel/inteloneapi/vpl/latest/include  -o isolalert.cpp.o  
 $ /usr/bin/c++ isolalert.cpp.o -lcurl  /opt/intel/inteloneapi/vpl/latest/lib/libopencv_world.so -o isolalert 
 
 ```
+
+### The final result
+
+Bellow an example running in Avenue Paulista in public Brazil camera.
+
+![](img/isolalert.jpg)
