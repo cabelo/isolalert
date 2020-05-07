@@ -46,4 +46,6 @@ $ /usr/bin/c++ isolalert.cpp.o -lcurl  /opt/intel/inteloneapi/vpl/latest/lib/lib
 
 Bellow an example running in Avenue Paulista in public Brazil camera.
 
+contact : Alessandro de Oliveira Faria (A.K.A.CABELO) cabelo@opensuse.org
+
 ![](img/isolalert.jpg)
