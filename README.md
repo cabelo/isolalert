@@ -1,6 +1,6 @@
 # isolalert
 
-***ISOALRT*** is a Project created to analyze the behavior of the population, calculate the necessary distance between people to avoid contagion (COVID-19) and statistical processing of the number of people and vehicles in a given region.
+***ISOALERT*** is a Project created to analyze the behavior of the population, calculate the necessary distance between people to avoid contagion (COVID-19) and statistical processing of the number of people and vehicles in a given region.
 
 ## Building the ISOALERT
 
@@ -18,10 +18,26 @@ Clone the repository at desired location:
 git clone https://github.com/cabelo/isolalert
 ```
 
+### Download the required files
+
+Download the required files. You will have to download the pre-trained weight file and another. Or just run these commands:
+
+``` bash
+$ wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
+
+$ wget https://pjreddie.com/media/files/yolov3.weights
+
+$ wget https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
+
+```
+
+### Build the project
+
+Now execute 
 
 
 ``` bash
-/usr/bin/c++ -I/opt/intel/inteloneapi/vpl/latest/include  -o isolalert.cpp.o  -c isolalert.cpp
-/usr/bin/c++ isolalert.cpp.o -lcurl  /opt/intel/inteloneapi/vpl/latest/lib/libopencv_world.so -o isolalert 
+$ /usr/bin/c++ -I/opt/intel/inteloneapi/vpl/latest/include  -o isolalert.cpp.o  -c isolalert.cpp
+$ /usr/bin/c++ isolalert.cpp.o -lcurl  /opt/intel/inteloneapi/vpl/latest/lib/libopencv_world.so -o isolalert 
 
 ```
