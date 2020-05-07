@@ -15,7 +15,7 @@ You can register, download and information about install it from the following l
 Clone the repository at desired location:
 
 ``` bash
-git clone https://github.com/cabelo/isolalert
+# git clone https://github.com/cabelo/isolalert
 ```
 
 ### Download the required files
